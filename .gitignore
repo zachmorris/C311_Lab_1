@@ -71,6 +71,7 @@ timing
 *_generation_script*
 *_inst.vhd
 *.bak
+*.dbb
 *.cmp
 *.done
 *.eqn
