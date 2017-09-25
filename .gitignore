@@ -72,6 +72,7 @@ timing
 *_inst.vhd
 *.bak
 *.dbb
+*.cdf
 *.cmp
 *.done
 *.eqn
@@ -86,13 +87,17 @@ timing
 *.qar
 *.qarlog
 *.qws
+*.qpf
+*.qsf
+*.qxp
 *.rpt
+*.sdc
 *.smsg
 *.sof
 *.sopc_builder
 *.summary
 *.tcl
-*.txt # Explicitly add any text files used
+*.temp
 *~
 *example*
 *sopc_*
