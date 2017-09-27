@@ -25,7 +25,7 @@ HEADER
 	VERSION = 1;
 	TIME_UNIT = ns;
 	DATA_OFFSET = 0.0;
-	DATA_DURATION = 1000.0;
+	DATA_DURATION = 10000.0;
 	SIMULATION_TIME = 0.0;
 	GRID_PHASE = 0.0;
 	GRID_PERIOD = 10.0;
@@ -737,7 +737,17 @@ TRANSITION_LIST("Reset")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 1 FOR 960.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 1120.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 1280.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 1120.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 1120.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 3600.0;
 	}
 }
 
@@ -746,7 +756,7 @@ TRANSITION_LIST("div_clk_count[31]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -755,7 +765,7 @@ TRANSITION_LIST("div_clk_count[30]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -764,7 +774,7 @@ TRANSITION_LIST("div_clk_count[29]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -773,7 +783,7 @@ TRANSITION_LIST("div_clk_count[28]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -782,7 +792,7 @@ TRANSITION_LIST("div_clk_count[27]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -791,7 +801,7 @@ TRANSITION_LIST("div_clk_count[26]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -800,7 +810,7 @@ TRANSITION_LIST("div_clk_count[25]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -809,7 +819,7 @@ TRANSITION_LIST("div_clk_count[24]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -818,7 +828,7 @@ TRANSITION_LIST("div_clk_count[23]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -827,7 +837,7 @@ TRANSITION_LIST("div_clk_count[22]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -836,7 +846,7 @@ TRANSITION_LIST("div_clk_count[21]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -845,7 +855,7 @@ TRANSITION_LIST("div_clk_count[20]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -854,7 +864,7 @@ TRANSITION_LIST("div_clk_count[19]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -863,7 +873,7 @@ TRANSITION_LIST("div_clk_count[18]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -872,7 +882,7 @@ TRANSITION_LIST("div_clk_count[17]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -881,7 +891,7 @@ TRANSITION_LIST("div_clk_count[16]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -890,7 +900,7 @@ TRANSITION_LIST("div_clk_count[15]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -899,7 +909,7 @@ TRANSITION_LIST("div_clk_count[14]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -908,7 +918,7 @@ TRANSITION_LIST("div_clk_count[13]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -917,7 +927,7 @@ TRANSITION_LIST("div_clk_count[12]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -926,7 +936,7 @@ TRANSITION_LIST("div_clk_count[11]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -935,7 +945,7 @@ TRANSITION_LIST("div_clk_count[10]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -944,7 +954,7 @@ TRANSITION_LIST("div_clk_count[9]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -953,7 +963,7 @@ TRANSITION_LIST("div_clk_count[8]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -962,7 +972,7 @@ TRANSITION_LIST("div_clk_count[7]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -971,7 +981,7 @@ TRANSITION_LIST("div_clk_count[6]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 10000.0;
 	}
 }
 
@@ -980,7 +990,9 @@ TRANSITION_LIST("div_clk_count[5]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 6400.0;
+		LEVEL 1 FOR 3520.0;
+		LEVEL 0 FOR 80.0;
 	}
 }
 
@@ -989,7 +1001,9 @@ TRANSITION_LIST("div_clk_count[4]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 6400.0;
+		LEVEL 1 FOR 3520.0;
+		LEVEL 0 FOR 80.0;
 	}
 }
 
@@ -998,7 +1012,9 @@ TRANSITION_LIST("div_clk_count[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 5120.0;
+		LEVEL 1 FOR 1120.0;
+		LEVEL 0 FOR 3760.0;
 	}
 }
 
@@ -1007,7 +1023,9 @@ TRANSITION_LIST("div_clk_count[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 3840.0;
+		LEVEL 1 FOR 1120.0;
+		LEVEL 0 FOR 5040.0;
 	}
 }
 
@@ -1016,7 +1034,15 @@ TRANSITION_LIST("div_clk_count[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 1120.0;
+		LEVEL 1 FOR 1120.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 1280.0;
+		LEVEL 0 FOR 1440.0;
+		LEVEL 1 FOR 1120.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 3520.0;
+		LEVEL 0 FOR 80.0;
 	}
 }
 
@@ -1025,7 +1051,10 @@ TRANSITION_LIST("div_clk_count[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 1 FOR 999.0;
+		LEVEL 0 FOR 1401.0;
+		LEVEL 1 FOR 1280.0;
+		LEVEL 0 FOR 6320.0;
 	}
 }
 
@@ -1036,9 +1065,9 @@ TRANSITION_LIST("inclk")
 		REPEAT = 1;
 		NODE
 		{
-			REPEAT = 25;
-			LEVEL 0 FOR 20.0;
-			LEVEL 1 FOR 20.0;
+			REPEAT = 500;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
 		}
 	}
 }
@@ -1048,7 +1077,8 @@ TRANSITION_LIST("outclk")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1057,7 +1087,8 @@ TRANSITION_LIST("outclk_Not")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1066,7 +1097,8 @@ TRANSITION_LIST("count_check[31]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1075,7 +1107,8 @@ TRANSITION_LIST("count_check[30]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1084,7 +1117,8 @@ TRANSITION_LIST("count_check[29]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1093,7 +1127,8 @@ TRANSITION_LIST("count_check[28]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1102,7 +1137,8 @@ TRANSITION_LIST("count_check[27]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1111,7 +1147,8 @@ TRANSITION_LIST("count_check[26]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1120,7 +1157,8 @@ TRANSITION_LIST("count_check[25]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1129,7 +1167,8 @@ TRANSITION_LIST("count_check[24]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1138,7 +1177,8 @@ TRANSITION_LIST("count_check[23]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1147,7 +1187,8 @@ TRANSITION_LIST("count_check[22]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1156,7 +1197,8 @@ TRANSITION_LIST("count_check[21]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1165,7 +1207,8 @@ TRANSITION_LIST("count_check[20]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1174,7 +1217,8 @@ TRANSITION_LIST("count_check[19]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1183,7 +1227,8 @@ TRANSITION_LIST("count_check[18]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1192,7 +1237,8 @@ TRANSITION_LIST("count_check[17]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1201,7 +1247,8 @@ TRANSITION_LIST("count_check[16]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1210,7 +1257,8 @@ TRANSITION_LIST("count_check[15]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1219,7 +1267,8 @@ TRANSITION_LIST("count_check[14]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1228,7 +1277,8 @@ TRANSITION_LIST("count_check[13]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1237,7 +1287,8 @@ TRANSITION_LIST("count_check[12]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1246,7 +1297,8 @@ TRANSITION_LIST("count_check[11]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1255,7 +1307,8 @@ TRANSITION_LIST("count_check[10]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1264,7 +1317,8 @@ TRANSITION_LIST("count_check[9]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1273,7 +1327,8 @@ TRANSITION_LIST("count_check[8]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1282,7 +1337,8 @@ TRANSITION_LIST("count_check[7]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1291,7 +1347,8 @@ TRANSITION_LIST("count_check[6]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1300,7 +1357,8 @@ TRANSITION_LIST("count_check[5]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1309,7 +1367,8 @@ TRANSITION_LIST("count_check[4]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1318,7 +1377,8 @@ TRANSITION_LIST("count_check[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1327,7 +1387,8 @@ TRANSITION_LIST("count_check[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1336,7 +1397,8 @@ TRANSITION_LIST("count_check[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
@@ -1345,7 +1407,8 @@ TRANSITION_LIST("count_check[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 999.0;
+		LEVEL 0 FOR 9001.0;
 	}
 }
 
