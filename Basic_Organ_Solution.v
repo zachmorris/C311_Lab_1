@@ -225,14 +225,14 @@ parameter Si_text = {character_S, character_lowercase_i, {2{character_space}}};
 parameter Do2_text = {character_D, character_lowercase_o, character_2, character_space};
 
 // Clock dividers for notes
-parameter Do_div = 32'h0BAB9;
-parameter Re_div = 32'h0DDF2;
-parameter Mi_div = 32'h0C5E3;
-parameter Fa_div = 32'h0F971;
-parameter So_div = 32'h117D1;
-parameter La_div = 32'h12861;
-parameter Si_div = 32'h17572;
-parameter Do2_div = 32'h14c66; 
+parameter Do_div 	= 32'h0BAB9;
+parameter Re_div 	= 32'h0A65D;
+parameter Mi_div 	= 32'h09430;
+parameter Fa_div 	= 32'h08BE9;
+parameter So_div 	= 32'h07CB8;
+parameter La_div 	= 32'h06EF9;
+parameter Si_div 	= 32'h062F1;
+parameter Do2_div = 32'h05D5C; 
 
 		 
 // Play different frequencies when different switches are on
@@ -294,7 +294,7 @@ always_comb
 		if(SW[0])
 			begin
 				Sample_Clk_Signal = Clock_1KHz;
-				audio_data = {(~Sample_Clk_Signal),{7{Sample_Clk_Signal}}};
+				audio_data = {(~Sample_Clk_Signal),{6'b000000},{1{Sample_Clk_Signal}}}; 
 			end
 		else
 			begin
